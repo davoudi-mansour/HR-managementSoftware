@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Mar 17, 2018 1:36:24 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="nezam.Bime" table="bime" catalog="kardani" optimistic-lock="version">
+        <id name="id" type="java.lang.Integer">
+            <column name="id" length="225" />
+            <generator class="assigned" />
+        </id>
+        <property name="sherkat" type="string">
+            <column name="sherkat" />
+        </property>
+        <property name="idMain" type="java.lang.Integer">
+            <column name="id_main" />
+        </property>
+        <property name="khales" type="string">
+            <column name="khales" length="45" />
+        </property>
+        <property name="naKhales" type="string">
+            <column name="`na khales`" length="45" />
+        </property>
+        <property name="metrazh" type="string">
+            <column name="metrazh" length="45" />
+        </property>
+        <property name="sdate" type="date">
+            <column name="sdate" length="10" />
+        </property>
+        <property name="edate" type="date">
+            <column name="edate" length="10" />
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Mar 17, 2018 1:36:24 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="nezam.Majma" table="majma" catalog="kardani" optimistic-lock="version">
+        <id name="id" type="int">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <property name="dbargozari" type="date">
+            <column name="dbargozari" length="10" />
+        </property>
+        <property name="result" type="string">
+            <column name="result" />
+        </property>
+        <property name="idMain" type="java.lang.Integer">
+            <column name="id_main" />
+        </property>
+    </class>
+</hibernate-mapping>

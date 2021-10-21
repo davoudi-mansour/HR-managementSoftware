@@ -1,0 +1,240 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Mar 17, 2018 1:36:24 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="nezam.Main" table="main" catalog="kardani" optimistic-lock="version">
+        <id name="id" type="int">
+            <column name="id" />
+            <generator class="assigned" />
+        </id>
+        <property name="lname" type="string">
+            <column name="lname" length="30" />
+        </property>
+        <property name="fname" type="string">
+            <column name="fname" length="30" />
+        </property>
+        <property name="latin" type="string">
+            <column name="latin" length="45" />
+        </property>
+        <property name="fathername" type="string">
+            <column name="fathername" length="20" />
+        </property>
+        <property name="dofbirth" type="string">
+            <column name="dofbirth" />
+        </property>
+        <property name="melicode" type="string">
+            <column name="melicode" length="45" />
+        </property>
+        <property name="identitycardnumber" type="string">
+            <column name="identitycardnumber" length="45" />
+        </property>
+        <property name="uniname" type="string">
+            <column name="uniname" />
+        </property>
+        <property name="major" type="string">
+            <column name="major" length="45" />
+        </property>
+        <property name="majorcode" type="string">
+            <column name="majorcode" length="45" />
+        </property>
+        <property name="hphone" type="string">
+            <column name="hphone" length="45" />
+        </property>
+        <property name="mphone" type="string">
+            <column name="mphone" length="45" />
+        </property>
+        <property name="notes" type="string">
+            <column name="notes" />
+        </property>
+        <property name="religion" type="string">
+            <column name="religion" length="45" />
+        </property>
+        <property name="membershipnumber" type="string">
+            <column name="membershipnumber" length="45" />
+        </property>
+        <property name="licensenumber" type="string">
+            <column name="licensenumber" />
+        </property>
+        <property name="paye" type="string">
+            <column name="paye" />
+        </property>
+        <property name="archivecode" type="string">
+            <column name="archivecode" length="45" />
+        </property>
+        <property name="dsendinquiry" type="string">
+            <column name="dsendinquiry" />
+        </property>
+        <property name="numbersendletter" type="string">
+            <column name="numbersendletter" />
+        </property>
+        <property name="dreceivedinquiry" type="string">
+            <column name="dreceivedinquiry" />
+        </property>
+        <property name="ozviyattype" type="string">
+            <column name="ozviyattype" />
+        </property>
+        <property name="dtmdidozviyat" type="string">
+            <column name="dtmdidozviyat" />
+        </property>
+        <property name="address" type="string">
+            <column name="address" />
+        </property>
+        <property name="single" type="string">
+            <column name="single" length="45" />
+        </property>
+        <property name="postalcode" type="string">
+            <column name="postalcode" />
+        </property>
+        <property name="cofbirth" type="string">
+            <column name="cofbirth" />
+        </property>
+        <property name="ozviyatdate" type="string">
+            <column name="ozviyatdate" />
+        </property>
+        <property name="sex" type="string">
+            <column name="sex" />
+        </property>
+        <property name="gerayesh" type="string">
+            <column name="gerayesh" />
+        </property>
+        <property name="denduni" type="string">
+            <column name="denduni" />
+        </property>
+        <property name="addressuni" type="string">
+            <column name="addressuni" />
+        </property>
+        <property name="dtest1" type="string">
+            <column name="dtest1" />
+        </property>
+        <property name="dtest2" type="string">
+            <column name="dtest2" />
+        </property>
+        <property name="dtest3" type="string">
+            <column name="dtest3" />
+        </property>
+        <property name="dsodur1" type="string">
+            <column name="dsodur1" />
+        </property>
+        <property name="dsodur2" type="string">
+            <column name="dsodur2" />
+        </property>
+        <property name="dsodur3" type="string">
+            <column name="dsodur3" />
+        </property>
+        <property name="dtamdid" type="string">
+            <column name="dtamdid" />
+        </property>
+        <property name="dendetebar" type="string">
+            <column name="dendetebar" />
+        </property>
+        <property name="jobplace" type="string">
+            <column name="jobplace" />
+        </property>
+        <property name="jobaddress" type="string">
+            <column name="jobaddress" />
+        </property>
+        <property name="jobtell" type="string">
+            <column name="jobtell" />
+        </property>
+        <property name="sarbazi" type="string">
+            <column name="sarbazi" />
+        </property>
+        <property name="nezaratshiraz" type="string">
+            <column name="nezaratshiraz" />
+        </property>
+        <property name="documentshiraz" type="string">
+            <column name="documentshiraz" />
+        </property>
+        <property name="nezaratbonyad" type="string">
+            <column name="nezaratbonyad" />
+        </property>
+        <property name="documentbonyad" type="string">
+            <column name="documentbonyad" />
+        </property>
+        <property name="nezaratsadra" type="string">
+            <column name="nezaratsadra" />
+        </property>
+        <property name="documentsadra" type="string">
+            <column name="documentsadra" />
+        </property>
+        <property name="nezaratshahrestan" type="string">
+            <column name="nezaratshahrestan" />
+        </property>
+        <property name="documentshahrestan" type="string">
+            <column name="documentshahrestan" />
+        </property>
+        <property name="totalaverage" type="string">
+            <column name="totalaverage" />
+        </property>
+        <property name="savabegh" type="string">
+            <column name="savabegh" />
+        </property>
+        <property name="dqualification" type="string">
+            <column name="dqualification" />
+        </property>
+        <property name="typequalifucation" type="string">
+            <column name="typequalifucation" />
+        </property>
+        <property name="performancequalification" type="string">
+            <column name="performancequalification" />
+        </property>
+        <property name="supervisionqualification" type="string">
+            <column name="supervisionqualification" />
+        </property>
+        <property name="ozviyatdocument" type="string">
+            <column name="ozviyatdocument" />
+        </property>
+        <property name="madrakejra" type="string">
+            <column name="madrakejra" length="45" />
+        </property>
+        <property name="codemadrakejra" type="string">
+            <column name="codemadrakejra" length="45" />
+        </property>
+        <property name="dsalahiyatejra" type="string">
+            <column name="dsalahiyatejra" />
+        </property>
+        <property name="dsalahiyatnezarat" type="string">
+            <column name="dsalahiyatnezarat" />
+        </property>
+        <property name="madraknezarat" type="string">
+            <column name="madraknezarat" />
+        </property>
+        <property name="dateinputinfo" type="string">
+            <column name="dateinputinfo" />
+        </property>
+        <property name="fishnumber" type="string">
+            <column name="fishnumber" />
+        </property>
+        <property name="fishdate" type="string">
+            <column name="fishdate" />
+        </property>
+        <property name="semat" type="string">
+            <column name="semat" />
+        </property>
+        <property name="teluni" type="string">
+            <column name="teluni" length="45" />
+        </property>
+        <property name="sabeghe" type="string">
+            <column name="sabeghe" length="20" />
+        </property>
+        <property name="image" type="string">
+            <column name="image" />
+        </property>
+        <property name="bio" type="string">
+            <column name="bio" />
+        </property>
+        <property name="letter" type="string">
+            <column name="letter" length="225" />
+        </property>
+        <property name="denteghali" type="string">
+            <column name="denteghali" length="45" />
+        </property>
+        <property name="performance" type="string">
+            <column name="performance" />
+        </property>
+        <property name="docejra" type="string">
+            <column name="docejra" />
+        </property>
+    </class>
+</hibernate-mapping>

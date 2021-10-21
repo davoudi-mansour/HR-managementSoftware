@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Mar 17, 2018 1:36:24 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="nezam.Tajrobi" table="tajrobi" catalog="kardani" optimistic-lock="version">
+        <id name="id" type="int">
+            <column name="id" />
+            <generator class="assigned" />
+        </id>
+        <property name="name" type="string">
+            <column name="name" length="45" />
+        </property>
+        <property name="lname" type="string">
+            <column name="lname" length="45" />
+        </property>
+        <property name="fname" type="string">
+            <column name="fname" length="45" />
+        </property>
+        <property name="shnumber" type="string">
+            <column name="shnumber" length="45" />
+        </property>
+        <property name="mcode" type="string">
+            <column name="mcode" length="45" />
+        </property>
+        <property name="tyear" type="string">
+            <column name="tyear" length="45" />
+        </property>
+        <property name="cposti" type="string">
+            <column name="cposti" length="45" />
+        </property>
+        <property name="address" type="string">
+            <column name="address" length="45" />
+        </property>
+        <property name="hphone" type="string">
+            <column name="hphone" length="45" />
+        </property>
+        <property name="sphone" type="string">
+            <column name="sphone" length="45" />
+        </property>
+        <property name="nparvane" type="string">
+            <column name="nparvane" length="45" />
+        </property>
+        <property name="paye" type="string">
+            <column name="paye" length="45" />
+        </property>
+        <property name="dsparvane" type="string">
+            <column name="dsparvane" length="45" />
+        </property>
+        <property name="deparvane" type="string">
+            <column name="deparvane" length="45" />
+        </property>
+        <property name="hpsalane" type="string">
+            <column name="hpsalane" length="45" />
+        </property>
+        <property name="cbayegani" type="string">
+            <column name="cbayegani" length="45" />
+        </property>
+        <property name="ejraname" type="string">
+            <column name="ejraname" length="45" />
+        </property>
+        <property name="dejraname" type="string">
+            <column name="dejraname" length="45" />
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Mar 17, 2018 1:36:24 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="nezam.Amuzeshi" table="amuzeshi" catalog="kardani" optimistic-lock="version">
+        <id name="id" type="int">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <property name="name" type="string">
+            <column name="name" length="45" />
+        </property>
+        <property name="sdate" type="date">
+            <column name="sdate" length="10" />
+        </property>
+        <property name="fdate" type="date">
+            <column name="fdate" length="10" />
+        </property>
+        <property name="period" type="string">
+            <column name="period" length="45" />
+        </property>
+        <property name="place" type="string">
+            <column name="place" length="45" />
+        </property>
+        <property name="mojaveznumber" type="string">
+            <column name="mojaveznumber" length="45" />
+        </property>
+        <property name="dmojavez" type="date">
+            <column name="dmojavez" length="10" />
+        </property>
+        <property name="dazmun" type="date">
+            <column name="dazmun" length="10" />
+        </property>
+        <property name="teachername" type="string">
+            <column name="teachername" length="45" />
+        </property>
+        <property name="parvaneteacher" type="string">
+            <column name="parvaneteacher" length="45" />
+        </property>
+        <property name="sazman" type="string">
+            <column name="sazman" length="45" />
+        </property>
+        <property name="idMain" type="java.lang.Integer">
+            <column name="id_main" />
+        </property>
+        <property name="number" type="string">
+            <column name="number" length="45" />
+        </property>
+    </class>
+</hibernate-mapping>

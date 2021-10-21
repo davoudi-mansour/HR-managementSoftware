@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Aug 20, 2018 10:53:53 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="nezam.Finance" table="finance" catalog="kardani" optimistic-lock="version">
+        <id name="id" type="java.lang.Integer">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <property name="bedehkariamount" type="java.lang.Integer">
+            <column name="bedehkariamount" />
+        </property>
+        <property name="bedehkarikind" type="string">
+            <column name="bedehkarikind" />
+        </property>
+        <property name="pardakhtdate" type="date">
+            <column name="pardakhtdate" length="10" />
+        </property>
+        <property name="idMain" type="java.lang.Integer">
+            <column name="id_main" />
+        </property>
+        <property name="paye" type="string">
+            <column name="paye" length="45" />
+        </property>
+        <property name="ozviyatsaliyaneamount" type="java.lang.Integer">
+            <column name="ozviyatsaliyaneamount" />
+        </property>
+        <property name="karkardamount" type="java.lang.Double">
+            <column name="karkardamount" precision="22" scale="0" />
+        </property>
+        <property name="darsad" type="java.lang.Double">
+            <column name="darsad" precision="22" scale="0" />
+        </property>
+        <property name="fishnumber" type="string">
+            <column name="fishnumber" />
+        </property>
+        <property name="bankname" type="string">
+            <column name="bankname" length="45" />
+        </property>
+        <property name="pay" type="java.lang.Integer">
+            <column name="pay" />
+        </property>
+        <property name="registerdate" type="date">
+            <column name="registerdate" length="10" />
+        </property>
+        <property name="checknumber" type="string">
+            <column name="checknumber" />
+        </property>
+        <property name="parvanedate" type="date">
+            <column name="parvanedate" length="10" />
+        </property>
+        <property name="paykind" type="string">
+            <column name="paykind" length="45" />
+        </property>
+        <property name="extra" type="string">
+            <column name="extra" />
+        </property>
+        
+        <property name="status" type="java.lang.Integer">
+            <column name="status" />
+        </property>
+        <property name="creator" type="string">
+            <column name="creator" />
+        </property>
+        
+        
+    </class>
+</hibernate-mapping>
